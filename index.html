@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios 1, 2 y 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- MÓDULO 1 – Maquetación básica -->
+    <header class="bg-slate-800 p-6 text-white text-center">
+        <h1 class="text-3xl font-bold">Módulo 1 – Maquetación básica</h1>
+    </header>
+    
+    <main class="p-8 space-y-8">
+    
+        
+        <section>
+            <h2 class="text-xl font-bold mb-4">Layout con Flex</h2>
+            <div class="flex">
+                <div class="bg-blue-500 w-1/2 p-4 text-white">Columna 1</div>
+                <div class="bg-green-500 w-1/2 p-4 text-white">Columna 2</div>
+            </div>
+        </section>
+    
+        
+        <section>
+            <h2 class="text-xl font-bold mb-4">Layout con Grid</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-red-500 p-4 text-white">Columna 1</div>
+                <div class="bg-yellow-500 p-4 text-white">Columna 2</div>
+            </div>
+        </section>
+    
+        
+        <section>
+            <h2 class="text-xl font-bold mb-4">Alineación con justify- e items-</h2>
+            <div class="flex justify-between items-center bg-gray-200 p-4">
+                <div>Izquierda</div>
+                <div>Centro</div>
+                <div>Derecha</div>
+            </div>
+        </section>
+    
+        
+        <section>
+            <h2 class="text-xl font-bold mb-4">Uso de Breakpoints</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-purple-500 p-4 text-white">Caja 1</div>
+                <div class="bg-purple-500 p-4 text-white">Caja 2</div>
+                <div class="bg-purple-500 p-4 text-white">Caja 3</div>
+            </div>
+        </section>
+    </main>
+
+
+   <!-- MÓDULO 2 – Componentes reutilizables -->
+   <header class="bg-slate-800 p-6 text-white text-center mt-8">
+      <h1 class="text-3xl font-bold">Módulo 2 – Componentes reutilizables</h1>
+  </header>
+
+<main class="p-8 space-y-8">
+
+    
+    <section>
+        <h2 class="text-xl font-bold mb-4">Botones con estados</h2>
+        <button
+            class="bg-blue-500 hover:bg-blue-600 active:bg-blue-700 disabled:bg-gray-400 text-white px-4 py-2 rounded">
+            Botón Activo
+        </button>
+        <button disabled
+            class="bg-blue-500 hover:bg-blue-600 active:bg-blue-700 disabled:bg-gray-400 text-white px-4 py-2 rounded">
+            Botón Deshabilitado
+        </button>
+    </section>
+
+    
+    <section>
+        <h2 class="text-xl font-bold mb-4">Tarjeta con imagen, título, texto y botón</h2>
+        <div class="max-w-sm bg-white rounded shadow-lg overflow-hidden">
+            <img src="./img/unnamed.jpg" alt="Imagen" class="w-full">
+            <div class="p-4">
+                <h2 class="text-lg font-bold mb-2">Entrenando a papá</h2>
+                <p class="text-gray-600 mb-4">Joe, una estrella de fútbol americano que disfruta de una vida
+                perfecta, descubre que tiene una hija. Ahora, Joe debe aprender a equilibrar su carrera 
+                profesional, su vida personal y las responsabilidades que conlleva la paternidad.</p>
+                <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Ver más</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <section>
+        <h2 class="text-xl font-bold mb-4">Formulario estilizado</h2>
+        <form class="max-w-md bg-white p-4 rounded shadow-lg space-y-4">
+            <input type="text" placeholder="Nombre" class="border border-gray-300 rounded px-3 py-2 w-full">
+            <select class="border border-gray-300 rounded px-3 py-2 w-full">
+                <option>Opción 1</option>
+                <option>Opción 2</option>
+            </select>
+            <textarea placeholder="Escribe aquí..." class="border border-gray-300 rounded px-3 py-2 w-full"></textarea>
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Enviar</button>
+        </form>
+    </section>
+
+</main>
+
+   <!-- MÓDULO 3 – Diseño avanzado -->
+<header class="bg-slate-800 p-6 text-white text-center mt-8">
+    <h1 class="text-3xl font-bold">Módulo 3 – Diseño avanzado</h1>
+</header>
+
+<main class="p-8 space-y-8">
+
+    
+    <section>
+        <h2 class="text-xl font-bold mb-4">Menú responsive tipo hamburguesa</h2>
+        <nav class="bg-red-700 p-4">
+            <div class="flex justify-between items-center text-white">
+                <h1 class="text-lg font-bold">Mi Sitio</h1>
+                <button class="sm:hidden">☰</button>
+                <ul class="hidden sm:flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Inicio</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Servicios</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    
+    <section>
+        <h2 class="text-xl font-bold mb-4">Sección con gradiente y sombra</h2>
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 p-8 shadow-lg text-white rounded">
+            <h2 class="text-2xl font-bold mb-4">Sección con Gradiente</h2>
+            <p>Este es un ejemplo de fondo con degradado y sombra.</p>
+        </div>
+    </section>
+
+    
+    <section>
+        <h2 class="text-xl font-bold mb-4">Animaciones</h2>
+        <div class="flex space-x-4">
+            <div class="animate-bounce bg-teal-400 w-20 h-20 rounded-full"></div>
+            <div class="animate-pulse bg-lime-400 w-20 h-20 rounded-full"></div>
+        </div>
+    </section>
+
+</main>
+
+</body>
+</html>
