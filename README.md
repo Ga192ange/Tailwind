@@ -91,7 +91,7 @@ colegio-sistema/
 ## Trabajo Colaborativo
 **Integrantes:**
 
-- Samuel Castro — *Roles:* 
+- Samuel Castro — *Rol:* 
 ### Coordinador
 1. **Registrar estudiante**  
    Permite agregar un estudiante con `nombre` y `grado`.
@@ -119,8 +119,7 @@ colegio-sistema/
 
 9. **Cerrar sesión**
 
----
-
+- Saira Aragon — *Rol:*
 ### Rector
 
 1. **Ver avisos de coordinadores**  
@@ -142,8 +141,6 @@ colegio-sistema/
    Permite modificar el asunto o el mensaje de un comunicado existente.
 
 7. **Cerrar sesión**
-
-- Saira Aragon — 
 - Karen Gonzales — *Rol:* Estudiante (ver el registro de sus notas y datos)
 - Angelica Garcia — *Rol:* Profesor (registro de notas y cálculo de promedios)
 
