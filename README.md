@@ -119,6 +119,8 @@ colegio-sistema/
 
 9. **Cerrar sesión**
 
+
+
 - Saira Aragon — *Rol:*
 ### Rector
 
