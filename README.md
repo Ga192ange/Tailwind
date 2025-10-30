@@ -1,7 +1,7 @@
 # Sistema de Gestión Académica del Colegio
 
 **Categoría:** Misional — *Formación Académica* 
-**Versión de Python:** Python 3.13.9  
+**Versión de Python:** 3.13.9  
 
 ## Problema / Necesidad
 En muchos colegios, los docentes y directivos aún registran las calificaciones de manera manual o en hojas de cálculo, lo que puede generar errores, pérdida de información o dificultad para calcular promedios y hacer seguimiento académico a los estudiantes.
@@ -21,6 +21,7 @@ Cuenta con distintos **roles de usuario**:
 ---
 
 ##  Arquitectura del Proyecto
+```
 colegio-sistema/
 ├─ src/
 │  ├─ main.py                     # Punto de entrada con menú o CLI
