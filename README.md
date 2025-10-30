@@ -119,7 +119,7 @@ colegio-sistema/
 
 9. **Cerrar sesión**
 
-
+---
 
 - Saira Aragon — *Rol:*
 ### Rector
@@ -143,8 +143,35 @@ colegio-sistema/
    Permite modificar el asunto o el mensaje de un comunicado existente.
 
 7. **Cerrar sesión**
-- Karen Gonzales — *Rol:* Estudiante (ver el registro de sus notas y datos)
-- Angelica Garcia — *Rol:* Profesor (registro de notas y cálculo de promedios)
+
+---
+
+- Angelica Garcia — *Rol:*
+### Profesor
+1. **Iniciar sesión**
+   Inicia sesión como usuario profesor con su respectiva contraseña
+
+2. **Mensajes de bienvenida**
+
+3. **Registra notas**
+   Ingresa notas de estudiante po su ID.
+
+4. **Ver notas**
+   Puede ver las notas de sus estudiantes por su ID.
+
+5. **Listado de notas**
+   Se observa una tabla con nombre de estudiante, materia, nota y fecha.
+
+6. **Calcular promedio**
+   Se calcula el promedio de cada estudiante por sus respectivas notas.
+
+7. **Cerrar sesión**
+
+---
+
+- Karen Gonzales — *Rol:*
+  
+---
 
 **Repositorio**
 - https://github.com/samuelcastr/colegio.git
