@@ -149,6 +149,9 @@ colegio-sistema/
 - Angelica Garcia — *Rol:*
 ### Profesor
 
+1. **Ver avisos de coordinadores**  
+   Permite revisar todos los avisos enviados por los coordinadores.
+
 1. **Iniciar sesión**
    Inicia sesión como usuario profesor con su respectiva contraseña.
 
