@@ -150,7 +150,7 @@ colegio-sistema/
 ### Profesor
 
 1. **Iniciar sesión**
-   Inicia sesión como usuario profesor con su respectiva contraseña
+   Inicia sesión como usuario profesor con su respectiva contraseña.
 
 2. **Mensajes de bienvenida**
 
