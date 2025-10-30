@@ -149,24 +149,22 @@ colegio-sistema/
 - Angelica Garcia — *Rol:*
 ### Profesor
 
-1. **Ver avisos de coordinadores**  
-   Permite revisar todos los avisos enviados por los coordinadores.
-
-1. **Iniciar sesión**
+1. **Iniciar sesión**  
    Inicia sesión como usuario profesor con su respectiva contraseña.
 
-2. **Mensajes de bienvenida**
+2. **Mensajes de bienvenida**  
+   Bienvenido rol profesor.
 
-3. **Registra notas**
+3. **Registra notas**  
    Ingresa notas de estudiante po su ID.
 
-4. **Ver notas**
+4. **Ver notas**  
    Puede ver las notas de sus estudiantes por su ID.
 
-5. **Listado de notas**
-   Se observa una tabla con nombre de estudiante, materia, nota y fecha.
+5. **Listado de notas**  
+   Se observa una tabla con nombre de estudiante, materia, nota y fecha..
 
-6. **Calcular promedio**
+6. **Calcular promedio**  
    Se calcula el promedio de cada estudiante por sus respectivas notas.
 
 7. **Cerrar sesión**
