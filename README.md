@@ -148,6 +148,7 @@ colegio-sistema/
 
 - Angelica Garcia — *Rol:*
 ### Profesor
+
 1. **Iniciar sesión**
    Inicia sesión como usuario profesor con su respectiva contraseña
 
