@@ -1,6 +1,7 @@
 # Sistema de Gestión Académica del Colegio
 
 **Categoría:** Misional — *Formación Académica* 
+
 **Versión de Python:** 3.13.9  
 
 ## Problema / Necesidad
@@ -8,7 +9,7 @@ En muchos colegios, los docentes y directivos aún registran las calificaciones 
 
 Por esta razón, se propone crear un sistema académico que facilite el **registro de estudiantes, notas y el cálculo de promedios**, para apoyar la labor educativa y administrativa de la institución.
 
----
+
 
 ## Solución Propuesta
 El sistema desarrollado es una **aplicación de consola** que permite gestionar los procesos académicos de forma organizada.  
@@ -18,7 +19,7 @@ Cuenta con distintos **roles de usuario**:
 - **Profesor:** ingresa las notas y calcula promedios.
 - **Estudiante:** ver notas y dtos.
 
----
+
 
 ##  Arquitectura del Proyecto
 ```
@@ -54,7 +55,8 @@ colegio-sistema/
 ├─ README.md
 └─ .gitignore
 
----
+```
+
 
 ## Manual de Usuario
 **Requisitos previos**
@@ -71,7 +73,7 @@ colegio-sistema/
 **Ejecución**
 - python -m src.main o python src/main.py
 
----
+
 
 ## Temas de Python aplicados
 - Funciones y modularización
@@ -81,7 +83,7 @@ colegio-sistema/
 - Condicionales y bucles
 - Programación por roles y permisos
 
----
+
 
 ## Trabajo Colaborativo
 **Integrantes:**
@@ -94,7 +96,7 @@ colegio-sistema/
 **Repositorio**
 - https://github.com/samuelcastr/colegio.git
 
----
+
 
 ## Límites y mejoras futuras
 - Implementar autenticación segura (encriptar contraseñas).
