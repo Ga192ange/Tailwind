@@ -188,5 +188,23 @@ colegio-sistema/
 
 ## Ejemplos de uso
 
+```bash
+=== SISTEMA DE GESTION DEL COLEGIO ===
+Ingrese su nombre de usuario: Prof1
+Ingrese su contraseña: p201
+
+✅ Bienvenido, prof1 (rol: profesor)
+```
+
+```bash
+=== Menú del profesor ===
+1. Registrar nota
+2. Ver notas
+3. Calcular Promedio
+5. Cerrar sesión
+
+Seleccione una opción: 1
+
+```
   
 
