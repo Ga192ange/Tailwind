@@ -156,7 +156,10 @@ colegio-sistema/
    Bienvenido rol profesor.
 
 3. **Registra notas**  
-   Ingresa notas de estudiante po su ID.
+   - Ingresa nombre de estudiante por si ID.
+   - Grado.
+   - Materia.
+   - Nota(0-5).
 
 4. **Ver notas**  
    Puede ver las notas de sus estudiantes por su ID.
