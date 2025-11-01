@@ -197,13 +197,45 @@ Ingrese su contraseña: p201
 ```
 
 ```bash
-=== Menú del profesor ===
+=== MENÚ DEL PROFESOR ===
 1. Registrar nota
 2. Ver notas
-3. Calcular Promedio
-5. Cerrar sesión
+3. Calcular promedio
+4. Cerrar sesión
 
 Seleccione una opción: 1
+
+=== REGISTRAR NOTA ===
+ID:1 | Andrés - Grado: 11
+ID:2 | Camila - Grado: 10
+ID:3 | Estu1 - Grado: 11
+
+Ingrese el ID del estudiante: 1
+Ingrese el grado del estudiante: 11
+Ingrese materia: Inglés
+Ingrese nota (0-5): 4
+
+✅ Nota registrada correctamente para Andrés (Grado 11).
+
+
+=== MENÚ DEL PROFESOR ===
+1. Registrar nota
+2. Ver notas
+3. Calcular promedio
+4. Cerrar sesión
+
+Seleccione una opción: 2
+
+📘 --- LISTADO DE NOTAS ---
+Andrés | Inglés | Grado: 11 = 4.0  (2025-10-31)
+Camila | Lenguaje | Grado: 10 = 3.5  (2025-10-30)
+Estu1  | Matemáticas | Grado: 11 = 4.2  (2025-10-31)
+
+
+Seleccione una opción: 3
+Ingrese el ID del estudiante: 1
+
+📊 Promedio de Andrés (Grado: 11): 4.00
 
 ```
   
