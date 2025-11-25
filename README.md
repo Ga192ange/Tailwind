@@ -1,43 +1,37 @@
 ```bash
-+---------------------+        +----------------------+        +----------------------+
-|   CategoriaProducto | 1 ---- |      Producto        | ---- N |     Proveedor        |
-+---------------------+        +----------------------+        +----------------------+
-| id (PK)             |        | id (PK)              |        | id (PK)              |
-| nombre              |        | nombre               |        | nombre               |
-| descripcion         |        | categoria_id (FK)    |        | telefono             |
-|                     |        | stock_minimo         |        | email                |
-|                     |        | stock_maximo         |        | direccion            |
-+---------------------+        | stock_actual         |        | ciudad               |
-                               | fecha_vencimiento    |        | activo               |
-                               +----------------------+        +----------------------+
-                                         |
-                                         | 1
-                                         |
-                                         N
-                               +----------------------+
-                               |     Movimiento       |
-                               +----------------------+
-                               | id (PK)              |
-                               | producto_id (FK)     |
-                               | tipo                 |
-                               | cantidad             |
-                               | fecha                |
-                               +----------------------+
-                                         |
-                                         | 1
-                                         |
-                                         N
-                               +----------------------+
-                               |       Alerta         |
-                               +----------------------+
-                               | id (PK)              |
-                               | producto_id (FK)     |
-                               | movimiento_id (FK)   |
-                               | nivel_stock          |
-                               | estado               |
-                               | tipo_alerta          |
-                               | fecha                |
-                               +----------------------+
+Tabla: CategoriaProducto
+------------------------------------
+id (PK)
+nombre
+descripcion
+
+
+Tabla: Producto
+------------------------------------
+id (PK)
+nombre
+descripcion
+categoria_id (FK → CategoriaProducto.id)
+unidad_medida
+stock_minimo
+stock_maximo
+stock_actual
+precio_compra
+precio_venta
+fecha_vencimiento
+activo
+fecha_creacion
+fecha_actualizacion
+
+
+Tabla: HistorialPrecio
+------------------------------------
+id (PK)
+producto_id (FK → Producto.id)
+precio_anterior
+nuevo_precio
+fecha_cambio
+
 
 ```
 
